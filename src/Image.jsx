@@ -18,7 +18,10 @@ const Image = () => {
         <div>
             <img width={'300px'} height={'300px'} src={image} alt={image} />
         <br />
-        <button onClick={handleImage}>click Here</button>
+        <button onClick={handleImage} 
+        style={{padding:'20px',
+            fontSize:'2rem',
+        }}>click Here</button>
         </div>
     );
 };
